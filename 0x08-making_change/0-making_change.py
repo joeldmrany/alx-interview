@@ -1,5 +1,14 @@
 #!/usr/bin/python3
+""" change coins """
+
+
 def makeChange(coins, total):
+    """ how many coins to reach total
+
+    Args:
+        coins([List]): [List of Coins]
+        total([int]): [total amount needed]
+    """
     if (total <= 0):
         return 0
 
