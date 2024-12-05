@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+""" Python code """
+
+
 def island_perimeter(grid):
     """
     getting perimeter islan.
