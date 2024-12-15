@@ -36,7 +36,7 @@ def bye_multi(leng, y):
     """
     Get rid of multiples Prime Numbers
     """
-    for i in range(2, len(leng)): # personal comment
+    for i in range(2, len(leng)):
         try:
             leng[i * y] = 0
         except (ValueError, IndexError):
